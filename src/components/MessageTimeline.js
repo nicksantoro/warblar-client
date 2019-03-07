@@ -1,7 +1,8 @@
-import React from "react"
-import MessageList from "../containers/MessageList"
+import React from "react";
+import MessageList from "../containers/MessageList";
 
-const MessageTimeLine = props => {
+
+const MessageTimeline = props => {
   return (
     <div className="row">
       <MessageList />
@@ -9,4 +10,4 @@ const MessageTimeLine = props => {
   );
 };
 
-export default MessageTimeLine;
+export default MessageTimeline;
