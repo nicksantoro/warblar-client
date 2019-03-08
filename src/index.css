@@ -25,7 +25,7 @@ body {
 
 .navbar-brand > img {
   display: inline-block;
-  width: 20px;
+  width: 80px;
   margin-bottom: 2px;
   margin-right: 5px;
   border-radius: 2px;
@@ -51,13 +51,13 @@ ul.nav.navbar-nav li {
   align-items: center;
   justify-content: center;
   z-index: -1;
-  background-image: url("./images/signed-out-home.jpg");
+  background-image: url("./images/warbler-bg.jpg");
   text-align: center;
   padding: 1rem;
   background-position: center center;
   background-size: cover;
-  color: #fff;
-  text-shadow: 0 0 8px #66757f;
+  color: black;
+  /* text-shadow: 0 0 8px #66757f; */
 }
 
 #messages .list-group-item  {
@@ -70,4 +70,24 @@ ul.nav.navbar-nav li {
 #messages:not(.no-hover) .list-group-item:hover {
   background-color: #e6ecf0;
 }
+
+.timeline-image {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 2px 30px 10px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+a.btn.btn-danger,
+a.btn.btn-danger:hover {
+  color: white;
+}
+
+/* .navbar-header {
+  margin: 0 auto;
+} */
 

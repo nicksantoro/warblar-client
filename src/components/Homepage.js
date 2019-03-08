@@ -25,4 +25,3 @@ const Homepage = ({ currentUser }) => {
 };
 
 export default Homepage;
-

@@ -1,5 +1,5 @@
-import React from 'react'
-import DefaultProfileImg from "../images/default-profile-image.jpg"
+import React from "react";
+import DefaultProfileImg from "../images/default-profile-image.jpg";
 
 const UserAside = ({ profileImageUrl, username }) => (
   <aside className="col-sm-2">
@@ -8,14 +8,14 @@ const UserAside = ({ profileImageUrl, username }) => (
         <img
           src={profileImageUrl || DefaultProfileImg}
           alt={username}
-          className="img-thumbnail"
           width="200"
           height="200"
+          className="img-thumbnail"
         />
       </div>
     </div>
-
   </aside>
-)
+);
 
 export default UserAside;
+
